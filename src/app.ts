@@ -9,4 +9,4 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.send('Hello ' + name);
 });
 
-app.listen(5000, () => console.log('Server running at port 5000 ... '))
+app.listen(5000, () => console.log('Server running at port 5000 ... '));
